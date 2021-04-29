@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Vint Cerf</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+   <header>
+   	  <h1>Vint Cerf : Son œuvre</h1>
+      <input type="button" value="Retour" onClick="window.location.href='../index.html'">
+   </header>
+   <div class="presentation">
+     <div class="gauche">
+       <p>Vinton Gray Cerf est considéré par la société et le monde de l'informatique comme le père fondateur avec Bob Kahn. Il a développé avec son projet d'Arpanet le protocole TCP/IP qui est de nos jour toujours utilisé. Cet un protocole car il est utilisé dans tous les réseaux. Ce protocole permet de séparer en plusieurs partie une information. Ces "petits bouts" d'information sont appelés paquet. Le protocole TCP/IP contient TCP et IP qui n'ont pas la même fonction. Le TCP permet de vérifier si les paquets envoyés par celui qui envoie l'information à bien était envoyé sans perte. Il numérote le nombre de paquet et regarde si le destinataire les a tous reçu. Si oui le TCP s'arrete sinon il redemande à l'envoyeur les paquets perdus.</p>
+       <figure>
+         <img class="tcp" src="../image/TCP.gif" alt="Fonctionnement du TCP">
+       </figure>
+     </div>
+
+     <div class="droit">
+       <figure>
+         <img src="../image/Internet.jpg" alt="Internet">
+       </figure>
+       <p>La partie IP du protocole permet d'envoyer l'information. Pour cela toutes les machines qui peuvent se connecter à un réseau ont eu une adresse IP qui leur sont unique (2 machines ne peuvent pas avoir la même adresse IP). Une adresse IP c'est généralement 4 nombres entre 0 et 255 qui sont séparés par des points. Par exemple 132.159.35.4 . Pour envoyer l'information on a besoin du routage IP. Pour cela celui qui envoie l'information l'envoie à sont fournisseurs d'accés qui l'envoie à plein d'ordinateur afin que le destinataire puisse recevoir cette information. Les ports ont était inventé car si l'utilisateur utilise plusieurs logiciels en même temps , les ports permettent de ne pas mélanger les paquets et de les envoyer à la bonne adresse IP. Pour cela les portes donnent un numéro aux logiciels et donnent ce nombre à tous les paquets envoyés afin qu'ils se reçoivent par la bonne adresse IP.</p>
+      </div>
+   </div>
+</body>
+</html>
